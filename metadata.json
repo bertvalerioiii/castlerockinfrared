@@ -1,0 +1,6 @@
+{
+  "name": "Castle Rock Infrared",
+  "description": "Professional NFPA 70B compliant thermal imaging, electrical infrared, and preventative maintenance inspections.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
