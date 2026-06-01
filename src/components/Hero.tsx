@@ -1,8 +1,7 @@
 import { motion } from 'motion/react';
 import { HERO_CONTENT, CONTACT_INFO } from '../data';
-
-const heroBg = "/src/assets/images/hero_thermal_bg_1780119124846.png";
-const breakerThermal = "/src/assets/images/breaker_thermal_1780119147762.png";
+import heroBg from '../assets/images/hero_thermal_bg_1780119124846.png';
+import breakerThermal from '../assets/images/breaker_thermal_1780119147762.png';
 
 interface HeroProps {
   onCtaClick: (targetId: string) => void;

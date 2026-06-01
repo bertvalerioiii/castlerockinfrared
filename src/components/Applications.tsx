@@ -2,9 +2,8 @@ import { useState, ComponentType } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Building, ShieldCheck, Factory, Heart, Hotel, Database, Warehouse, Sun, Flame, CheckCircle2, ChevronRight, Sparkles } from 'lucide-react';
 import { APPLICATIONS } from '../data';
-
-const breakerThermal = "/src/assets/images/breaker_thermal_1780119147762.png";
-const solarThermal = "/src/assets/images/drone_solar_thermal_1780119168843.png";
+import breakerThermal from '../assets/images/breaker_thermal_1780119147762.png';
+import solarThermal from '../assets/images/drone_solar_thermal_1780119168843.png';
 
 // Icons lookup for industries
 const iconMap: { [key: string]: ComponentType<{ className?: string; size?: number }> } = {

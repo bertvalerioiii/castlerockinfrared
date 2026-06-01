@@ -1,7 +1,6 @@
 import { Target, ClipboardList, Shield, Landmark, CheckSquare } from 'lucide-react';
 import { ABOUT_TEXTS } from '../data';
-
-const breakerThermal = "/src/assets/images/breaker_thermal_1780119147762.png";
+import breakerThermal from '../assets/images/breaker_thermal_1780119147762.png';
 
 export default function About() {
   const complianceIcons = [
